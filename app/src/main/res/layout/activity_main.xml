@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/judul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="Formulir Peminjaman Buku"
+        android:textColor="#0277BD"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama :"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="15dp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/isinama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukan Nama"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        />
+
+    <TextView
+        android:id="@+id/kelas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kelas :"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="15dp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/isikelas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukan Kelas"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        />
+
+    <TextView
+        android:id="@+id/kode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kode Buku :"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="15dp"
+
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/isikode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukan Kode Buku"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:inputType="number"
+        />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:backgroundTint="#0277BD"
+        android:text="Submit"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        />
+
+    <TextView
+        android:id="@+id/nama2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama :"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="15dp"
+        android:inputType="number"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/kelas2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kelas :"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="15dp"
+        android:inputType="number"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/kode2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kode :"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="15dp"
+        android:inputType="number"
+        android:textStyle="bold"
+        />
+
+</LinearLayout>
